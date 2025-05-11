@@ -1,0 +1,66 @@
+/*Tablet View Start*/
+
+@media screen and (max-width:1030px){
+    .lets-talk-section{
+        padding:20px 40px;
+    }
+
+    .contact-heading h1{
+        font-size:40px;
+    }
+
+    .contact-heading p{
+        font-size:16px;
+    }
+
+    .contact-container{
+        gap:50px;
+    }
+}
+
+/*Tablet View End*/
+
+/*Mobile View Start*/
+
+@media screen and (max-width:768px){
+    .lets-talk-section{
+        padding:20px;
+    }
+
+    .contact-heading h1{
+        font-size:35px;
+    }
+
+    .contact-heading p{
+        font-size:14px;
+    }
+
+    .contact-container{
+        flex-direction:column-reverse;
+    }
+
+    .contact-form{
+        flex-basis:100%;
+        width:100%;
+    }
+
+    .contact-form h2{
+        font-size:25px;
+        margin-bottom:10px;
+    }
+
+    .contact-form label{
+        font-size:14px;
+    }
+
+    .contact-form input::placeholder,textarea::placeholder{
+        font-size:13px;
+    }
+
+    .social-contact{
+        flex-basis:100%;
+        width:100%;
+    }
+}
+
+/*Mobile View End*/

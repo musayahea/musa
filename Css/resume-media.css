@@ -1,0 +1,113 @@
+/*Desktop View Start*/
+
+@media screen and (min-width:1800px){
+    .resume-section{
+        padding:20px 150px;
+    }
+}
+
+/*Desktop View End*/
+
+/*Tablet View Start*/
+
+@media screen and (max-width:1030px){
+    .resume-section{
+        padding:20px 40px;
+    }
+
+    .resume-section h1{
+        font-size:40px;
+    }
+
+    .resume-section p{
+        font-size:16px;
+    }
+
+    .resume-content{
+        flex-direction:column;
+    }
+
+    .table button{
+        display:inline;
+        width:200px;
+        margin:10px;
+    }
+
+    .table-info{
+        padding:10px 0px;
+    }
+
+    .table-cards{
+        padding:20px;
+    }
+
+    .table-card p{
+        font-size:14px;
+    }
+
+    .grid-info{
+        grid-template-columns:1fr 1fr;
+        gap:20px;
+    }
+}
+
+/*Tablet View End*/
+
+/*Mobile View Start*/
+
+@media screen and (max-width:768px){
+    .resume-section{
+        padding:20px;
+    }
+
+    .resume-section h1{
+        font-size:35px;
+    }
+
+    .resume-section p{
+        font-size:14px;
+    }
+
+    .table button{
+        width:120px;
+        font-size:15px;
+        padding:4px 12px;
+    }
+
+    .table-info{
+        padding:10px 0px;
+    }
+
+    .table-info:hover{
+        scrollbar-width:none;
+    }
+
+    .table-info h2{
+        font-size:30px;
+    }
+
+    .skill-h3{
+        font-size:30px;
+    }
+
+    .table-info h5{
+        font-size:13px;
+    }
+
+    .table-info h5 span{
+        margin-bottom:10px;
+    }
+
+    .table-cards{
+        padding:10px;
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .grid-info{
+        grid-template-columns:1fr;
+        gap:10px;
+    }
+}
+
+/*Mobile View End*/

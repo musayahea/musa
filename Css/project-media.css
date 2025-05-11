@@ -1,0 +1,71 @@
+/*Tablet View Start*/
+
+@media screen and (max-width:1030px){
+    .portfolio-section{
+        padding:20px 40px;
+    }
+
+    .portfolio-content h1{
+        font-size:40px;
+    }
+
+    .portfolio-content p{
+        font-size:16px;
+    }
+
+    .portfolio-box .numb{
+        font-size:4rem;
+    }
+
+    .portfolio-box h3{
+        font-size:1.4rem;
+        margin:0.4rem 0 1rem;
+    }
+
+    .portfolio-box p{
+        font-size:0.9rem;
+    }
+
+    .portfolio-box .tech{
+        margin:1.4rem 0;
+        padding-bottom:0.8rem;
+    }
+
+    .portfolio-box .github a{
+        font-size:1.2rem;
+    }
+
+    .navigation-button{
+        right:40px;
+        bottom:-140px;
+    }
+
+    .navigation-button button{
+        font-size:1.5rem;
+    }
+}
+
+/*Tablet View End*/
+
+/*Mobile View Start*/
+
+@media screen and (max-width:768px){
+    .portfolio-section{
+        padding:20px;
+    }
+
+    .portfolio-content h1{
+        font-size:35px;
+    }
+
+    .portfolio-container{
+        grid-template-columns:1fr;
+    }
+
+    .navigation-button{
+        right:20px;
+        bottom:-480px;
+    }
+}
+
+/*Mobile View End*/

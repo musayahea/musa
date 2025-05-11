@@ -1,0 +1,39 @@
+.service-edit{
+    min-height:100vh;
+}
+
+.service-edit h1{
+    margin:0px;
+}
+
+.service-edit h1 span{
+    color:var(--commonColor);
+}
+
+.service-text-content p{
+    text-align:center;
+    font-size:18px;
+    font-weight:200;
+    color:#ddd;
+    margin:10px 50px;
+}
+
+@media screen and (max-width:1030px){
+    .service-text-content p{
+        font-size:16px;
+    }
+
+    .service-edit h1{
+        font-size:40px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .service-text-content p{
+        font-size:14px;
+    }
+
+    .service-edit h1{
+        font-size:35px;
+    }
+}
